@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(251, 253, 255);
+    border-bottom: 2px solid rgb(222, 147, 172);
+}
+.logo{
+    background-color: palevioletred;
+    margin-left: 10px;
+    width: 7%;
+    border-radius: 100%;
+    color: whitesmoke;
+    padding: 4px 0px ;
+    
+}
+.img-home {
+    height: 580px;
+}
+/* .banner h2{
+    font-family: 'Passion One', cursive;
+    background-color: rgb(75, 67, 67);
+    margin-left: 25px ;
+    font-size: xxx-large;
+} */
+.login-img{
+    background-image: url(../Images/login.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 585px;
+ }
+.form-group {
+    width: 42%;
+     box-shadow: 1px 1px 10px 4px whitesmoke;
+    border-radius: 100%;
+   
+}
+.form-group h4 {
+    color: rgb(88, 56, 67)
+   
+}
+.form-group input{
+    border: none;
+    border-bottom: 2px solid rgb(87, 36, 45);
+    background: transparent;
+}
+
+.form-col{
+    box-shadow: 1px 1px 6px 5px rgb(222, 111, 129);
+    margin-top: 20px;
+}
+.form-group-2 {
+   display: flex;
+   justify-content: center;
+   /* align-items: start; */
+   align-items: flex-start;
+   flex-direction: column;
+    padding: 20px 0px;
+   
+}
+.form-group-2 h2 {
+    color: rgb(88, 56, 67)
+   
+}
+.form-group-2 input{
+    border: none;
+    border-bottom: 2px solid rgb(87, 36, 45);
+    background: transparent;
+}
+.main{
+    background-image: url(../Images/sign-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 580px;
+    padding: 20px 0px ;
+
+}
+.collection-one{
+    background-image: url(../Images/col-one.jpg);
+    width: 4713px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.collection-two{
+    background-image: url(../Images/col-two.jpg);
+    width: 4713px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.btn-info{
+    background-color:palevioletred  !important;
+    border: 1px solid whitesmoke !important;
+    border-radius: 10px !important;
+}
